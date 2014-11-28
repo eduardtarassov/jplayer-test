@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @speech.position %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @speech.title %>
+</p>
+
+<p>
+  <b>Mp3:</b>
+  <%= @song.mp3 %>
+</p>
+
+<p>
+  <strong>Mp3 file name:</strong>
+  <%= @speech.mp3_file_name %>
+</p>
+
+<p>
+  <strong>Mp3 content type:</strong>
+  <%= @speech.mp3_content_type %>
+</p>
+
+<p>
+  <strong>Mp3 file size:</strong>
+  <%= @speech.mp3_file_size %>
+</p>
+
+<p>
+  <strong>Mp3 updated at:</strong>
+  <%= @speech.mp3_updated_at %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @speech.description %>
+</p>
+
+<%= link_to 'Edit', edit_speech_path(@speech) %> |
+<%= link_to 'Back', speeches_path %>

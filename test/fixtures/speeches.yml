@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  position: 1
+  title: MyString
+  mp3_file_name: MyString
+  mp3_content_type: MyString
+  mp3_file_size: 1
+  mp3_updated_at: 2014-11-25 12:59:24
+  description: MyString
+
+two:
+  position: 1
+  title: MyString
+  mp3_file_name: MyString
+  mp3_content_type: MyString
+  mp3_file_size: 1
+  mp3_updated_at: 2014-11-25 12:59:24
+  description: MyString
